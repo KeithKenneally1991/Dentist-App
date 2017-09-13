@@ -1,0 +1,109 @@
+/* JavaFX CSS - /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+		    -fx-font-size: 16;  
+		        -fx-background-color: blue;
+		      
+}
+ .button {
+    -fx-text-fill: yellow;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 22;
+    	        -fx-max-width: 200;
+    
+}
+.bp{
+
+    -fx-background-color: black;
+      
+
+}
+
+.label{
+	    -fx-text-fill: yellow;
+	        -fx-font-weight: bold;
+	        -fx-max-width: 200;
+	        -fx-font-size: 18;
+	    
+	
+}
+.text-field{
+		        -fx-max-width: 200;
+	
+}
+
+.button:hover{
+		-fx-background-color:green;
+	
+}
+.my-custom-button{
+	
+}
+.tabpane {
+   /*  -fx-background-color:#26A8E9;
+  -fx-background-color: Pink;
+    */
+
+   
+}
+#imagetest{
+	       -fx-background-image: url("../images/pic33.jpg"); 
+	       	       -fx-background-position: center center ;	  
+	       	       -fx-background-size: 1250 685;   
+	       
+}
+#loginPage{
+	       -fx-background-image: url("../images/pic2.jpg"); 
+	       -fx-background-position: center center ;	
+	       -fx-background-size: 800;     
+}
+.footer{
+	-fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-background-color:rgb(192,192,192);
+    -fx-min-width: 1000;
+	
+}
+.textarea{
+	/*-fx-background-color: grey;
+	-fx-border-color: grey;*/
+	-fx-max-width: 600;
+	 /*text-area-background: blue ;*/
+	
+}
+
+
+.text-area .content {
+   /*  -fx-background-color: black ;*/
+}
+.textfield{
+	    -fx-font-size: 22;
+	
+}
+.delLabel{
+    -fx-text-fill: red;
+			    -fx-font-size: 22;
+	
+}
+.procedureHbox {
+    -fx-alignment: center ;
+    
+    
+}
+.return{
+	-fx-text-fill: black;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: red;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 22;
+}
+#imageq{ /*not used keeping for future preference */
+    -fx-background-image: url("http://www.v3wall.com/wallpaper/1920_1200/1006/1920_1200_20100614094820326170.jpg");
+        -fx-background-image: url("http://www.v3wall.com/wallpaper/1920_1200/1006/1920_1200_20100614094820326170.jpg");
+    
+}
